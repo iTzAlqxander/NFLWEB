@@ -3,7 +3,7 @@ body, #quote, #author {
     justify-content: center;
 }
 
-.quoteContainer {
+.mainContainer {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -11,16 +11,36 @@ body, #quote, #author {
     width: 80%;
     border: 1px solid grey;
     border-radius: 20px;
+
 }
 
-#quote {
-    font-family: "Bradley Hand ITC";
+.mainText {
+    font-size: 50px;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px;
+    width: 40%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-image: url("https://media.istockphoto.com/id/1339787499/photo/empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg?b=1&s=170667a&w=0&k=20&c=sEYFpHbrxOugC-NlO4vh1AQurJAsR-RnLbg_KHgj3kM=");
+}
+
+.game{
     text-align: center;
+    color: white;
+    padding-top: 5%;
     font-size: 20px;
 }
 
-#author {
-    margin-top: 10px;
-    font-family: "Bradley Hand ITC";
-    font-size: 35px;
+.date{
+    text-align: left;
+    text-indent: -7%;
+    margin-top: -10%;
+    color: white;
 }

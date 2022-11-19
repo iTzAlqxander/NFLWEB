@@ -14,7 +14,6 @@ fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", {
 	document.getElementById('g0Date').innerHTML = response.data[0].date;
 	document.getElementById('g0ShortName').innerHTML = response.data[0].shortName;
 
-    document.getElementById('name').innerHTML = response.message;
 	document.getElementById('g1Date').innerHTML = response.data[1].date;
 	document.getElementById('g1ShortName').innerHTML = response.data[1].shortName;
 
